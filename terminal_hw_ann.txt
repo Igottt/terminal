@@ -1,0 +1,26 @@
+   1  pwd  -  check where I am
+   2  mkdir group_33  -  create a folder
+   3  cd group_33  -  open a folder
+   4  mkdir dir_1 dir_2 dir_3  -  create 3 folders
+   5  cd dir_1  -  open a folder
+   6  touch 1.txt 2.txt 3.txt 4.json 5.json  -  create 5 files (3 .txt and 2 .json)
+   7  mkdir dir_1_1 dir_1_2 dir_1_3  -  create 3 additional folders
+   8  ls  -  show the contents of the current folder
+   9  vim 1.txt  -  open any .txt file
+        "i"  -  enter insert mode
+  10  type any text
+  11  "esc"  -  exit insert mode
+      shift+:  -  enter command execution mode
+      wq  -  execute command to save and quit
+  12  cd..  -  go up one level of the directory tree
+  13  mv dir_1/1.txt dir_2/1.txt  -  move a file from one folder to another
+      mv dir_1/4.json dir_3/2.json  -  move another file from one folder to the other
+  14  cp dir_1/2.txt dir_2/2.txt  -  copy a file and paste in into a different folder
+      cp dir_1/5.json dir_3/5.json  -  copy another file and paste in into a different folder
+  15  find dir_1 -type f -name "2.txt"  -  find a file by name
+  16  tail -f dir_2/1.txt  -  show the contents of a file in real time
+  17  head -2 dir_2/1.txt  -  show the first lines of a file
+  18  tail -2 dir_2/1.txt  -  show the last lines of a file
+  19  less dir_2/1.txt  -  show the contents of a long file
+      q  -  leave the inspection mode
+  20  date  -  show the current time and date
